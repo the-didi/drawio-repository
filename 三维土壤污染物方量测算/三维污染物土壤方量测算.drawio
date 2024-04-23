@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T12:05:35.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.5" etag="fZrG63zjIwWIT4f_TEFt" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-23T12:17:08.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Mec4nbWCofgKonZdT-nb" version="24.2.5" type="github">
   <diagram name="Page-1" id="5iRd3wNAO4fvE3GXSceW">
-    <mxGraphModel>
+    <mxGraphModel dx="719" dy="1547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="J_zkYC6uNXPhQ48sha47-3" value="土壤污染方量测算" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-4" value="土层建模" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-5" value="污染物建模" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-6" value="场景辅助对象" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="20" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="370" y="-20" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-9" value="点位建模" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=#f8cecc;fillStyle=dots;sketch=1;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="J_zkYC6uNXPhQ48sha47-25">
+          <mxGeometry x="37.267080745341616" y="29.310344827586206" width="89.44099378881988" height="43.96551724137931" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-10" value="土柱建模" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=#f8cecc;fillStyle=dots;sketch=1;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="J_zkYC6uNXPhQ48sha47-25">
+          <mxGeometry x="37.267080745341616" y="109.91379310344827" width="89.44099378881988" height="43.96551724137931" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="J_zkYC6uNXPhQ48sha47-25" target="J_zkYC6uNXPhQ48sha47-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="102.58620689655172" as="sourcePoint" />
+            <mxPoint x="37.267080745341616" y="65.94827586206897" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="J_zkYC6uNXPhQ48sha47-25" target="J_zkYC6uNXPhQ48sha47-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="102.58620689655172" as="sourcePoint" />
+            <mxPoint x="37.267080745341616" y="65.94827586206897" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-19" value="" style="group" vertex="1" connectable="0" parent="J_zkYC6uNXPhQ48sha47-25">
+          <mxGeometry x="128.19875776397515" y="89.39655172413792" width="111.80124223602485" height="80.60344827586206" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="J_zkYC6uNXPhQ48sha47-19">
+          <mxGeometry y="10.747126436781606" width="13.913043478260873" height="64.48275862068965" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-16" value="4. 根据点位建模" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="J_zkYC6uNXPhQ48sha47-19">
+          <mxGeometry x="13.915527950310562" width="83.47826086956523" height="14.6551724137931" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-17" value="5. 为柱子着色" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="J_zkYC6uNXPhQ48sha47-19">
+          <mxGeometry x="13.915527950310562" y="32.241379310344826" width="83.47826086956523" height="11.72413793103448" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-18" value="6. 为元素添加点击事件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="J_zkYC6uNXPhQ48sha47-19">
+          <mxGeometry x="13.915527950310562" y="69.85387931034482" width="97.8857142857143" height="10.74956896551724" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-20" value="" style="group" vertex="1" connectable="0" parent="J_zkYC6uNXPhQ48sha47-25">
+          <mxGeometry x="126.7080745341615" width="104.34782608695653" height="80.60344827586206" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="J_zkYC6uNXPhQ48sha47-20">
+          <mxGeometry y="10.747126436781606" width="13.913043478260871" height="64.48275862068965" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-22" value="1. 归一化点坐标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="J_zkYC6uNXPhQ48sha47-20">
+          <mxGeometry x="13.913043478260871" width="83.47826086956522" height="16.120689655172413" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-23" value="2. 为渲染点着色" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="J_zkYC6uNXPhQ48sha47-20">
+          <mxGeometry x="13.913043478260871" y="32.241379310344826" width="83.47826086956522" height="16.120689655172413" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-24" value="3. 在场景中渲染点位" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="J_zkYC6uNXPhQ48sha47-20">
+          <mxGeometry x="13.913043478260871" y="69.85632183908045" width="90.43478260869564" height="10.747126436781606" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-26" value="1. 建立IDW模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-27" value="2. 根据IDW模型预测空间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="205" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-28" value="2. 建模NRRD模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-29" value="1. 包围盒坐标系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J_zkYC6uNXPhQ48sha47-30" value="2. 气象底图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
