@@ -1,66 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T02:56:29.385Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ssW3uEa72UqG3E0bFIHG" version="24.3.1" type="github">
-  <diagram name="Page-1" id="lPwR8Cv8lqX_xfnFq6lU">
-    <mxGraphModel dx="1049" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-05-27T03:09:28.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.4.2" etag="AJf6A5vWYIWNJqsDfvlY" type="github">
+  <diagram name="Page-1" id="bPz7b8eHHmdCD9YBNxXN">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UEDGYVlNvfjktNkqxRZW-1" target="UEDGYVlNvfjktNkqxRZW-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-1" value="原图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UEDGYVlNvfjktNkqxRZW-2" target="UEDGYVlNvfjktNkqxRZW-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-2" value="优化图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="UEDGYVlNvfjktNkqxRZW-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="150" as="sourcePoint" />
-            <mxPoint x="350" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-4" value="切换" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="120" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UEDGYVlNvfjktNkqxRZW-5" target="UEDGYVlNvfjktNkqxRZW-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-5" value="改变小图和大图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UEDGYVlNvfjktNkqxRZW-6" target="UEDGYVlNvfjktNkqxRZW-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-6" value="改变小图和大图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UEDGYVlNvfjktNkqxRZW-9" target="UEDGYVlNvfjktNkqxRZW-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-9" value="将所有小图替换为当前的oldImageUrl" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-11" value="将大图替换为oldImageUrl" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="510" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UEDGYVlNvfjktNkqxRZW-13" target="UEDGYVlNvfjktNkqxRZW-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-13" value="将所有小图传入python进行图像优化" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-15" value="将优化过后的小图拼接成一张优化大图" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="510" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-17" value="1. 原图切换为优化图会慢一点" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="120" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UEDGYVlNvfjktNkqxRZW-18" value="1. 能够根据用户选择的图像模式，渲染不同的subImageUrl和bigImageUrl" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="150" width="200" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
