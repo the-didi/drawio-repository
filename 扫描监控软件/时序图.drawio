@@ -1,9 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T09:15:33.386Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.4.14" etag="ynlKtWS85jpgjCw5BH7O" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-26T09:54:32.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="a81PffiNLUs-Iq5Nop_z" version="24.4.14" type="github">
   <diagram name="Page-1" id="_sZPPUv1mXEmn8yYlrj4">
-    <mxGraphModel>
+    <mxGraphModel dx="868" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="170" y="240" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-3" value="扫描客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-7" value="显微镜扫图" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint" />
+            <mxPoint x="365" y="259.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-11" value="图像处理软件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="MHV_HwvfEe3rEZf5XaTf-11">
+          <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-13" value="扫描监控软件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="540" y="160" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="MHV_HwvfEe3rEZf5XaTf-13">
+          <mxGeometry x="45" y="103" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-28" value="每小时比对索引，判断是否异常" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="MHV_HwvfEe3rEZf5XaTf-13" source="MHV_HwvfEe3rEZf5XaTf-18" target="MHV_HwvfEe3rEZf5XaTf-18">
+          <mxGeometry x="0.3636" y="-10" width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="130" as="sourcePoint" />
+            <mxPoint x="60" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="196" y="130" />
+              <mxPoint x="196" y="150" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-16" value="生成lab文件" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="0.3636" y="-10" width="80" relative="1" as="geometry">
+            <mxPoint x="375" y="260.05999999999995" as="sourcePoint" />
+            <mxPoint x="375" y="280.02551724137925" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="260.05999999999995" />
+              <mxPoint x="420" y="280.05999999999995" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-17" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="376" y="290" as="sourcePoint" />
+            <mxPoint x="585" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-19" value="监控软件生成lab索引" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MHV_HwvfEe3rEZf5XaTf-17">
+          <mxGeometry x="0.1621" y="1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-20" value="责任人" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-21" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="710" y="160" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="MHV_HwvfEe3rEZf5XaTf-21">
+          <mxGeometry x="45" y="160" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-23" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="595" y="332" as="sourcePoint" />
+            <mxPoint x="755" y="331.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-24" value="上报监听图片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MHV_HwvfEe3rEZf5XaTf-23">
+          <mxGeometry x="0.1621" y="1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-26" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="MHV_HwvfEe3rEZf5XaTf-22">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="750" y="389" as="sourcePoint" />
+            <mxPoint x="180" y="389.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-27" value="调用微信通知API,上报异常信息和扫描进度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MHV_HwvfEe3rEZf5XaTf-26">
+          <mxGeometry x="0.1621" y="1" relative="1" as="geometry">
+            <mxPoint x="38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHV_HwvfEe3rEZf5XaTf-29" value="" style="image;html=1;image=img/lib/clip_art/computers/iMac_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="135" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
